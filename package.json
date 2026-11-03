@@ -1,0 +1,19 @@
+{
+  "name": "kambham-harsha-vardhan-reddy-portfolio",
+  "version": "1.0.0",
+  "description": "Professional engineering portfolio for Kambham Harsha Vardhan Reddy - Python Developer & Data Analyst",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "portfolio",
+    "python-developer",
+    "data-analyst",
+    "react",
+    "typescript"
+  ],
+  "author": "Kambham Harsha Vardhan Reddy",
+  "license": "MIT"
+}

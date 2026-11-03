@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resume - Kambham Harsha Vardhan Reddy</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #1e293b;
+      --secondary: #475569;
+      --accent: #2563eb;
+      --border: #e2e8f0;
+      --bg: #ffffff;
+      --text: #0f172a;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Inter', system-ui, -apple-system, sans-serif;
+      color: var(--text);
+      background-color: #f1f5f9;
+      line-height: 1.5;
+      padding: 2rem 1rem;
+    }
+    .resume-container {
+      max-width: 850px;
+      margin: 0 auto;
+      background: var(--bg);
+      padding: 3rem;
+      border-radius: 8px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    }
+    .action-bar {
+      max-width: 850px;
+      margin: 0 auto 1.5rem auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.6rem 1.2rem;
+      font-size: 0.9rem;
+      font-weight: 600;
+      border-radius: 6px;
+      text-decoration: none;
+      cursor: pointer;
+      border: 1px solid transparent;
+      transition: all 0.2s;
+    }
+    .btn-primary {
+      background: #0f172a;
+      color: white;
+    }
+    .btn-primary:hover {
+      background: #1e293b;
+    }
+    .btn-secondary {
+      background: white;
+      color: #334155;
+      border-color: #cbd5e1;
+    }
+    .btn-secondary:hover {
+      background: #f8fafc;
+    }
+    header {
+      border-bottom: 2px solid var(--border);
+      padding-bottom: 1.25rem;
+      margin-bottom: 1.5rem;
+      text-align: center;
+    }
+    h1 {
+      font-size: 1.85rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      color: var(--primary);
+      text-transform: uppercase;
+      margin-bottom: 0.4rem;
+    }
+    .contact-info {
+      font-size: 0.875rem;
+      color: var(--secondary);
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 0.5rem 1rem;
+    }
+    .contact-info a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .contact-info a:hover {
+      text-decoration: underline;
+    }
+    .section-title {
+      font-size: 1rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--primary);
+      border-bottom: 1.5px solid var(--border);
+      padding-bottom: 0.3rem;
+      margin: 1.4rem 0 0.8rem 0;
+    }
+    p, li {
+      font-size: 0.9rem;
+      color: #334155;
+    }
+    .item-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 0.25rem;
+    }
+    .item-title {
+      font-weight: 700;
+      font-size: 0.95rem;
+      color: #0f172a;
+    }
+    .item-subtitle {
+      font-weight: 500;
+      color: #475569;
+      font-size: 0.875rem;
+    }
+    .item-date {
+      font-size: 0.85rem;
+      font-weight: 500;
+      color: #64748b;
+      white-space: nowrap;
+    }
+    ul {
+      margin-left: 1.25rem;
+      margin-top: 0.35rem;
+      margin-bottom: 0.75rem;
+    }
+    li {
+      margin-bottom: 0.3rem;
+    }
+    .skill-category {
+      margin-bottom: 0.45rem;
+      font-size: 0.9rem;
+    }
+    .skill-category strong {
+      color: #0f172a;
+    }
+    @media print {
+      body {
+        background: transparent;
+        padding: 0;
+      }
+      .action-bar {
+        display: none !important;
+      }
+      .resume-container {
+        box-shadow: none;
+        padding: 1rem 0;
+        max-width: 100%;
+      }
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="action-bar">
+    <a href="index.html" class="btn btn-secondary">
+      &larr; Back to Portfolio
+    </a>
+    <button onclick="window.print()" class="btn btn-primary">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9V2h12v7M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><path d="M6 14h12v8H6z"/></svg>
+      Print / Save as PDF
+    </button>
+  </div>
+
+  <main class="resume-container">
+    <header>
+      <h1>KAMBHAM HARSHA VARDHAN REDDY</h1>
+      <div class="contact-info">
+        <span>Kadapa District, Andhra Pradesh – 516312, India</span>
+        <span>•</span>
+        <span><a href="tel:+918985600437">+91 8985600437</a></span>
+        <span>•</span>
+        <span><a href="mailto:kambhamharshavardhanreddy2@gmail.com">kambhamharshavardhanreddy2@gmail.com</a></span>
+      </div>
+      <div class="contact-info" style="margin-top: 0.4rem;">
+        <span><a href="https://www.linkedin.com/in/kambham-harsha-vardhan-reddy-55b326351/" target="_blank" rel="noopener">linkedin.com/in/kambham-harsha-vardhan-reddy-55b326351</a></span>
+        <span>•</span>
+        <span><a href="https://github.com/khvreddy14" target="_blank" rel="noopener">github.com/khvreddy14</a></span>
+      </div>
+    </header>
+
+    <section>
+      <h2 class="section-title">Professional Summary</h2>
+      <p>
+        B.Tech Computer Science student and Python programming intern with hands-on experience building a data-driven application using Python, SQL, pandas, and Matplotlib, plus full-stack web applications in React and TypeScript. Skilled in data validation, exploratory analysis, visualization, and unit testing. Seeking an entry-level Python Developer or Data Analyst role.
+      </p>
+    </section>
+
+    <section>
+      <h2 class="section-title">Education</h2>
+      <div style="margin-bottom: 0.75rem;">
+        <div class="item-header">
+          <div>
+            <span class="item-title">Mohan Babu University</span>
+            <span class="item-subtitle"> — B.Tech in Computer Science and Engineering (CSE)</span>
+          </div>
+          <span class="item-date">Expected May 2027</span>
+        </div>
+        <p style="font-size: 0.85rem; color: #475569;">Current CGPA: <strong>7.37 / 10.0</strong></p>
+      </div>
+
+      <div style="margin-bottom: 0.75rem;">
+        <div class="item-header">
+          <div>
+            <span class="item-title">Sri Chaitanya Junior College</span>
+            <span class="item-subtitle"> — Intermediate (12th MPC), Hyderabad</span>
+          </div>
+          <span class="item-date">2021 – 2023</span>
+        </div>
+        <p style="font-size: 0.85rem; color: #475569;">Percentage: <strong>79.0%</strong></p>
+      </div>
+
+      <div>
+        <div class="item-header">
+          <div>
+            <span class="item-title">Sri Chaitanya School</span>
+            <span class="item-subtitle"> — Secondary School Certificate (10th), Kadapa</span>
+          </div>
+          <span class="item-date">2021</span>
+        </div>
+        <p style="font-size: 0.85rem; color: #475569;">Grade: <strong>100% (GPA 10.0)</strong></p>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-title">Work Experience</h2>
+      <div>
+        <div class="item-header">
+          <div>
+            <span class="item-title">Codtech IT Solutions Private Limited</span>
+            <span class="item-subtitle"> — Python Programming Intern</span>
+          </div>
+          <span class="item-date">14 June 2026 – 26 July 2026 | Hyderabad</span>
+        </div>
+        <ul>
+          <li>Built a complete Smart Expense Tracker & Analyzer in Python from scratch, featuring an SQLite database, pandas analytics, Matplotlib charts, and a CLI split across 4 modular layers.</li>
+          <li>Engineered data validation checks and database constraints enforcing valid dates, whitelisted categories, and positive amounts via parameterized SQL queries to guarantee ACID compliance.</li>
+          <li>Implemented automated budget alerts triggered at 80% category thresholds, a 3-month moving-average spending forecast, and statistical outlier detection (Z-score > 2.0).</li>
+          <li>Analyzed a 319-record, 6-month transaction dataset: discovered Shopping as the top spending category (26.7% of ₹1,85,078.56 total volume) and successfully flagged an anomalous ₹14,999 transaction.</li>
+          <li>Authored 10 passing unit tests verifying input validation, alert triggers, forecasting math, and edge cases; compiled documentation into a 28–30 page report and 14-slide presentation.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-title">Technical Projects</h2>
+
+      <div style="margin-bottom: 0.85rem;">
+        <div class="item-header">
+          <div>
+            <span class="item-title">Smart Parking Solution – Full-Stack Web Application</span>
+            <span class="item-subtitle"> | React, TypeScript, Tailwind CSS, Leaflet</span>
+          </div>
+          <span class="item-date"><a href="https://github.com/khvreddy14/SMART-PARKING-SOLUTION" target="_blank" rel="noopener">GitHub Repo</a></span>
+        </div>
+        <ul>
+          <li>Designed and built a responsive dashboard-style smart parking platform enabling users to search, reserve, and pay for parking slots in real time.</li>
+          <li>Integrated interactive geospatial mapping with Leaflet to display parking locations, live slot availability indicators, and turn-by-turn routing navigation.</li>
+          <li>Engineered an end-to-end booking workflow featuring time-slot scheduling, dynamic peak pricing algorithms, simulated checkout, and digital QR verification passes.</li>
+          <li>Constructed an Admin Analytics Dashboard with CRUD inventory control, slot occupancy metrics, and real-time revenue tracking.</li>
+        </ul>
+      </div>
+
+      <div>
+        <div class="item-header">
+          <div>
+            <span class="item-title">The Hostel & PG Management System – Offline-First Enterprise App</span>
+            <span class="item-subtitle"> | JavaScript (ES6+), HTML5 Canvas, LocalStorage, CSS3</span>
+          </div>
+          <span class="item-date"><a href="https://github.com/khvreddy14/Hostel-management-system" target="_blank" rel="noopener">GitHub Repo</a></span>
+        </div>
+        <ul>
+          <li>Architected a 100% offline-capable web application to digitize hostel front-desk and accounting operations, eliminating manual paper record registers.</li>
+          <li>Implemented dual secure portals (Admin/Hostel Owner & Resident/Student) managing 24 rooms across multiple floors with bed-level occupancy tracking and stay-duration calculations.</li>
+          <li>Engineered zero-dependency offline 2D canvas visualization engine for financial revenue charts and dynamic, exact-amount UPI QR code generation.</li>
+          <li>Utilized HTML5 LocalStorage as a persistent relational schema maintaining resident lifecycles, billing schedules, and printable digital receipts.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-title">Technical Skills</h2>
+      <div class="skill-category">
+        <strong>Programming Languages:</strong> Python, Java, MATLAB, JavaScript (ES6+), TypeScript
+      </div>
+      <div class="skill-category">
+        <strong>Data & Databases:</strong> SQL, SQLite, pandas, NumPy, Matplotlib, Data Validation, Statistical Outlier Analysis (Z-score), Moving Averages, Data Visualization
+      </div>
+      <div class="skill-category">
+        <strong>Web Technologies:</strong> React, TypeScript, Tailwind CSS, HTML5, CSS3, HTML5 Canvas API, LocalStorage, Responsive Web Design
+      </div>
+      <div class="skill-category">
+        <strong>Tools & Software:</strong> Git, GitHub, Vite, Node.js, Microsoft Excel, Microsoft PowerPoint, VS Code
+      </div>
+      <div class="skill-category">
+        <strong>Soft Skills & Languages:</strong> Team Management, Technical Communication, Analytical Problem Solving | Telugu (Advanced), English (Advanced), Hindi (Intermediate)
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-title">Certifications & Accolades</h2>
+      <ul>
+        <li><strong>Professional Diploma of Virtual Executive Assistant</strong> – MTF Institute (Udemy), March 2025</li>
+        <li><strong>MS Excel and Mastery in English</strong> – Lernx, April 2024</li>
+        <li><strong>Academic Excellence</strong> – Perfect 100% Score (10.0 GPA) in Secondary School Board Examinations (2021)</li>
+      </ul>
+    </section>
+  </main>
+
+</body>
+</html>
